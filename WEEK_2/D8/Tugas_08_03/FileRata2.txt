@@ -1,0 +1,4 @@
+Nama,Rata2
+John,9
+Peter,8
+Steve,8

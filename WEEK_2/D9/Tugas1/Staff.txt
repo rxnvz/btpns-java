@@ -1,0 +1,1 @@
+{"Staff":[{"Tunjangan Pulsa":700000,"Nama":"seok","Email":"seok@jin.com","Tunjangan Makan":500000,"ID":"1","Gaji Pokok":10000000,"Jabatan":"Staff"},{"Tunjangan Pulsa":700000,"Nama":"rne","Email":"seok@jin.com","Tunjangan Makan":500000,"ID":"2","Gaji Pokok":10000000,"Jabatan":"Staff"}]}

@@ -1,0 +1,1 @@
+{"Manager":[{"Tunjangan Pulsa":700000,"Nama":"namu","Tunjangan Transport":750000,"ID":"1","Tunjangan Entertainment":1500000,"Gaji Pokok":15000000,"Telpon":"243242","Jabatan":"Manajer"},{"Tunjangan Pulsa":700000,"Nama":"nyom","Tunjangan Transport":750000,"ID":"2","Tunjangan Entertainment":1500000,"Gaji Pokok":15000000,"Telpon":"243242","Jabatan":"Manajer"}]}

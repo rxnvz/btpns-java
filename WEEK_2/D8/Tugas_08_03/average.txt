@@ -1,0 +1,6 @@
+nama 	average
+John	9.0
+nama 	average
+Peter	8.333333333333334
+nama 	average
+Steve	8.333333333333334

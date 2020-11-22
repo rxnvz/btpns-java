@@ -1,0 +1,6 @@
+ID    Nama             Jabatan          Total Gaji 
+---------------------------------------------------
+1    namu              Manajer          61600000
+3    nyom              Manajer          65500000
+2    rnee              Staff            33400000
+3    seok              Staff            33420000
