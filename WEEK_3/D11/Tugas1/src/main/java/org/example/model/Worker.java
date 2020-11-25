@@ -14,7 +14,7 @@ public abstract class Worker {
 
     public abstract long getIDKaryawan();
     public abstract String getNama();
-    public abstract ArrayList getEmail();
+    public abstract String getEmail();
     public abstract int getPulsa();
     public abstract int getGajiPokok();
     public abstract int getAbsensiHari();

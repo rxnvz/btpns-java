@@ -25,7 +25,7 @@ public class RestAPIController {
 
     // -------------------------- GET ALL STAFF (done) --------------------------
     @RequestMapping(value = "/staff/", method = RequestMethod.GET) //url dan method yang dipake
-    public ResponseEntity<ArrayList<Staff>> listAllStaff() { // Represents the entire HTTP response.
+    public ResponseEntity<?> listAllStaff() { // Represents the entire HTTP response.
         ArrayList<Staff> staffs = staffService.findAllStaff();
 
         if (staffs.isEmpty()) { //kalo, arraylist staff kosong
@@ -33,6 +33,7 @@ public class RestAPIController {
         }
         return new ResponseEntity<>(staffs, HttpStatus.OK); //nampilin seluruh isi arraylist dan ngasih kode ok
     }
+
 
     // -------------------------- GET STAFF BY ID (done) --------------------------
     @RequestMapping(value = "/staff/{IDKaryawan}", method = RequestMethod.GET)
@@ -48,6 +49,7 @@ public class RestAPIController {
         return new ResponseEntity<>(staffs, HttpStatus.OK);
     }
 
+
     // -------------------------- TAMBAH STAFF (done) --------------------------
     @RequestMapping(value = "/staff/", method = RequestMethod.POST)
     public ResponseEntity<?> newStaff(@RequestBody Staff staffs) { // Dia request parameter dari body
@@ -61,6 +63,7 @@ public class RestAPIController {
         staffService.saveStaff(staffs);
         return new ResponseEntity<>(staffs, HttpStatus.OK);
     }
+
 
     // -------------------------- EDIT STAFF (done) --------------------------
     @RequestMapping(value = "/staff/{IDKaryawan}", method = RequestMethod.PUT)
@@ -87,6 +90,7 @@ public class RestAPIController {
         return new ResponseEntity<>(thisStaff, HttpStatus.OK);
     }
 
+
     // -------------------------- DELETE STAFF BY ID (done) ---------------------------
     @RequestMapping(value = "/staff/{IDKaryawan}", method = RequestMethod.DELETE)
     public ResponseEntity<?> deletebyID(@PathVariable("IDKaryawan") long IDKaryawan) {
@@ -101,6 +105,7 @@ public class RestAPIController {
         staffService.deletStaffById(IDKaryawan);
         return new ResponseEntity<Staff>(HttpStatus.NO_CONTENT);
     }
+
 
     // -------------------------- DELETE ALL STAFF (done) --------------------------
     @RequestMapping(value = "/staff/", method = RequestMethod.DELETE)
