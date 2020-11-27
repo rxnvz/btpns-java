@@ -69,7 +69,7 @@ public class MahasiswaAPI {
     }
 
 
-    // ---------------------- REGIS MAHASISWA ----------------------
+        // ---------------------- REGIS MAHASISWA ----------------------
     @RequestMapping(value = "/mhs/", method = RequestMethod.POST)
     public ResponseEntity<?> createMaba(@RequestBody Mahasiswa m) {
         logger.info("Creating Mahasiswa : {}", m);
